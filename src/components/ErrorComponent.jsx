@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-const ErrorComponent = (message) => {
+const ErrorComponent = ({ message }) => {
   return (
     <div>{message}</div>
-  )
+  );
 }
 
 export default ErrorComponent;

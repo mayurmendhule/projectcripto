@@ -37,7 +37,7 @@ const Exchanges = () => {
 
 
   return (
-    <Container maxW={"container.xl"}>
+    <Container maxW={"container.xl"} >
       {loading ? (
         <Loader />
       ) : (
@@ -68,11 +68,16 @@ const ExchangeCard = ({ name, img, rank, url }) => (
       borderRadius={"lg"}
       transition={"all 0.3s"}
       m={"4"} 
-      css={{
-        "&: hover":{
-          transform: "scale(1.1)",
-        },
-      }}
+     css={{
+              borderRadius: '20px',
+              background: '#eee7e7',
+              boxShadow: '-11px 11px 12px #9d9b9f, 11px -11px 12px #ffffff',
+              "&:hover": {
+                background: "#e3e0e6",
+                boxShadow: "-11px 11px 12px #9d9b9f, 11px -11px 12px #ffffff",
+                transform: "scale(1.1)",
+              },
+            }}
     >
       <Image
         src={img}

@@ -202,28 +202,7 @@ const CoinDetails = () => {
     </Container>
   );
 };
-<div>
-  <p>
-  What are your most significant accomplishments and contributions since your last performance evaluation?
-Since my last performance evaluation, I developed a troubleshooting guide that reduced resolution times for common issues by 30%. I initiated weekly knowledge-sharing sessions to enhance team collaboration and keep everyone updated on best practices. Additionally, I worked on the MIS module, focusing on the front-end design and implementing the DNC upload feature to streamline data management. My handling of escalated support requests has also contributed to an increase in customer satisfaction ratings. Overall, I have sought feedback to continuously improve our processes and service delivery.
-What professional support will help you improve or develop your performance in your current job?
-To enhance my performance, I would benefit from training in server management and advanced troubleshooting techniques for both physical and virtual environments. Support in pursuing an AWS certification would expand my cloud knowledge for future projects. Additionally, mentorship in automation tools like Python would help streamline processes. Conducting more product knowledge sessions and training on new functionalities would ensure we align with evolving requirements. Workshops on security best practices and opportunities to attend conferences on emerging technologies would further aid my professional development and efficiency in handling complex issues.
 
-                                 OR
-•  Training in server management and advanced troubleshooting techniques.
-•  Support for pursuing AWS certification to enhance cloud knowledge.
-•  Mentorship in automation tools like Python.
-•  More product knowledge sessions and training on new functionalities to align with requirements.
-•  Workshops on security best practices.
-•  Opportunities to attend conferences on emerging technologies.
-
-What do you think your goals should be for the next assessment year?
-In the next assessment year, I aim to improve my technical skills and reduce the resolution time for critical, high-priority tickets by 25%. Another goal is to pursue AWS certification to expand my knowledge in cloud technologies, even though we don’t currently use cloud servers. This will prepare me for potential future projects and broaden my expertise. I also plan to contribute to team processes by automating repetitive tasks using Python scripts to improve overall efficiency.
-What do you like and dislike about working for this organization?
-I appreciate the collaborative atmosphere within the organization, where teamwork is valued and ideas are openly shared and discussed. I admire the supportive leadership, which fosters an environment of continuous learning and professional development. The access to cutting-edge technologies allows me to enhance my skills, and the culture encourages innovation and feedback. While I don't have any major dislikes, I feel there should be more resources allocated for technical support to further improve our efficiency and effectiveness.
-
-  </p>
-</div>
 const Item = ({ title, value }) => (
   <HStack justifyContent={"space-between"} w={"full"} my={"4"}>
     <Text fontFamily={"Bebas Neue"} letterSpacing={"widest"}>
